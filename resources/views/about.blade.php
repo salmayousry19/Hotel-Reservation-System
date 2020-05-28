@@ -43,7 +43,7 @@
 	          <li class="nav-item"><a href="{{url ('restaurant')}}" class="nav-link">Restaurant</a></li>
             <li class="nav-item"><a href="{{url ('about')}}" class="nav-link">About</a></li>
             <li class="nav-item"><a href="{{url ('contact')}}" class="nav-link">Contact</a></li>
-			  <li class="nav-item"><a href="{{url ('signup')}}" class="nav-link">Sign Up</a></li>			  
+            <li class="nav-item"><a href="{{route ('register')}}" class="nav-link">Sign up</a></li>			  
 	        </ul>
 	      </div>
 	    </div>
@@ -257,17 +257,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Useful Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Rooms</a></li>
-                <li><a href="#" class="py-2 d-block">Amenities</a></li>
-                <li><a href="#" class="py-2 d-block">Gift Card</a></li>
-              </ul>
-            </div>
-          </div>
+          
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Privacy</h2>
